@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animated-counter/static/css/main.172f5dcb.css",
+    "main.js": "/animated-counter/static/js/main.af401bbe.js",
+    "index.html": "/animated-counter/index.html",
+    "main.172f5dcb.css.map": "/animated-counter/static/css/main.172f5dcb.css.map",
+    "main.af401bbe.js.map": "/animated-counter/static/js/main.af401bbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.172f5dcb.css",
+    "static/js/main.af401bbe.js"
+  ]
+}
