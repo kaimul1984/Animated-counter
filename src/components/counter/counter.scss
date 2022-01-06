@@ -1,0 +1,21 @@
+$breakponit-tablet: 768px;
+$breakponit-mobile: 520px;
+
+.counter{
+    width: 90vw;
+    height: auto;//250px;
+    background-color: #eef2f5;
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        @media(max-width:$breakponit-tablet){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media(max-width:$breakponit-mobile){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

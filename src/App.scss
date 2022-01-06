@@ -1,0 +1,17 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        margin-bottom: 5rem;
+        font-size: 3rem;
+        color: #c25050;
+    }
+
+}

@@ -1,0 +1,38 @@
+$breakponit-tablet: 768px;
+.content {
+  padding: 1rem;
+  border-right: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: $breakponit-tablet) {
+    border-bottom: 1px solid #000;
+  }
+  svg {
+    fill: red;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  &:nth-child(2)svg {
+    fill: #1877f2;
+  }
+  &:nth-child(3)svg {
+    fill: #1da1f2;
+  }
+  &:nth-child(4)svg {
+    fill: #0a66c2;
+  }
+  span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #046997;
+    margin: 1rem 0;
+  }
+}
